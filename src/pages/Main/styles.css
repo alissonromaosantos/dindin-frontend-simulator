@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #05ede3 0%, #645ffb 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100px;
+}
+
+.logo-dindin {
+  margin-left: 100px;
+}
+
+.user-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 100px;
+
+  color: #fff;
+}
+
+.user-area strong {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.user-profile-img {
+  width: 56px;
+  height: 56px;
+
+  cursor: pointer;
+}
+
+.logo-signout {
+  width: 22px;
+  height: 27.5px;
+  margin-left: 16px;
+
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  border-radius: 60px 60px 0px 0px;
+  background-color: #fff;
+}
+
+.area-main {
+  height: 90%;
+}
+
+.filter-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 30px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+}
+
+.btn-filter img {
+  width: 14px;
+  height: 14px;
+}
+
+.btn-filter span {
+  margin-left: 4px;
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.main-div {
+  display: flex;
+}
+
+table {
+  width: 964px;
+  height: 58px;
+}
+
+thead {
+  height: 58px;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+tbody {
+  text-align: center;
+}
+
+.cell {
+  width: 964px;
+  height: 50px;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.order-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 4px;
+}
+
+.order-icon img {
+  width: 15px;
+}
+
+.td-data {
+  font-weight: 700;
+}
+
+td {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.icons-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 61px;
+  height: 87px;
+}
+
+.icons-table img {
+  cursor: pointer;
+}
+
+.area-right {
+  display: flex;
+  flex-direction: column;
+
+  width: 236px;
+  height: 240px;
+
+  margin-left: 34px;
+}
+
+.area-right .add-register {
+  width: 236px;
+  height: 46px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.2s;
+
+  background-color: #7978d9;
+  color: #fff;
+}
+
+.area-right .add-register:hover {
+  filter: brightness(0.9);
+}
+
+.area-resumo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 190px;
+
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
+.area-resumo h1 {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: #2f2f2f;
+
+  margin-left: 33px;
+}
+
+.area-resumo h4 {
+  width: 81px;
+  color: #2f2f2f;
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-left: 33px;
+}
+
+.valor {
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+
+  margin-right: 33px;
+}
+
+.entradas,
+.saidas,
+.saldo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entradas .valor,
+.entry-color {
+  color: #645ffb;
+}
+
+.saidas .valor,
+.exit-color {
+  color: #fa8c10;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.saldo strong {
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+
+  margin-left: 33px;
+}
+
+.saldo .valor {
+  color: #3a9ff1;
+}
+
+.area-resumo span {
+  width: 89px;
+}
+
+hr {
+  margin-left: 15%;
+  width: 160px;
+  border-top: 1px solid #eaeaea;
+}
